@@ -4,7 +4,6 @@ import products from "../data/product.json"
 import HeadTitle from "../components/ui/headTitle";
 
 const ProductPage = () => {
-
     return (
         <div>
             <HeadTitle title='گشنیز'/>
