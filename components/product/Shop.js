@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import ShopItem from "./ShopItem";
+import { formatPrice } from "../../utils/priceUtiles";
 
 const Shop = (props) => {
   const cartItems = useSelector(state => state.shopCart.item)
@@ -23,7 +24,6 @@ const Shop = (props) => {
                 total: item.totalPrice,
                 price: item.price,
                 detail: item.detail,
-                calcPrice: item.calcPrice
               }}
             />
           ))}
@@ -32,7 +32,7 @@ const Shop = (props) => {
       <div className={props.totalAmountDiv}>
         <div className="flex justify-between mx-10 md:mx-4 bg-white">
           <span className="font-semibold text-gray-800">جمع کل : </span>
-          <p className="text-left">{totalAmount} تومان</p>
+          <p className="text-left">{formatPrice(totalAmount)} تومان</p>
         </div>
       </div>
     </div>

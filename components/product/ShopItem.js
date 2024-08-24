@@ -1,3 +1,5 @@
+import { formatPrice } from "../../utils/priceUtiles";
+
 const ShopItem = (props) => {
     const { title, quantity, price, detail, image } = props.items
 
@@ -16,7 +18,7 @@ const ShopItem = (props) => {
                 </div>
                 <div className="flex justify-between mt-6">
                     <span className="text-sm special flex flex-col">
-                        {price} تومان
+                        {formatPrice(price)} تومان
                     </span>
                     <div className="ml-2">{quantity}</div>
                 </div>

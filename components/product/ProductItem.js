@@ -3,9 +3,10 @@ import { cartSliceAction } from "../../redux/shopcart-slice"
 import { useState } from "react"
 import Minus from "../icons/minus"
 import Plus from "../icons/plus"
+import { formatPrice } from "../../utils/priceUtiles"
 
 const ProductItem = (props) => {
-    const { id, name, image, detail, price, calcPrice } = props.items
+    const { id, name, image, detail, price } = props.items
     const [inputValue, setInputValue] = useState(0)
     const dispatch = useDispatch()
 
@@ -16,7 +17,6 @@ const ProductItem = (props) => {
             image,
             detail,
             price,
-            calcPrice
         }))
         setInputValue(inputValue + 1)
     }
@@ -58,7 +58,7 @@ const ProductItem = (props) => {
                     </div>
                     <div className="flex justify-between mt-5">
                         <span className="text-sm w-24 special">
-                            {price} تومان
+                            {formatPrice(price)} تومان
                         </span>
                         <div
                             className={`overflow-hidden flex add-cart-box justify-between ml-1 ${inputValue === 0 ? '' : 'addWidth'}`}

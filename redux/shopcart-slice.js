@@ -23,14 +23,13 @@ const shopCartSlice = createSlice({
                     image: newItem.image,
                     price: newItem.price,
                     detail: newItem.detail,
-                    calcPrice: newItem.calcPrice,
                     quantity: 1
                 })
             } else {
                 existingItem.quantity++
             }
 
-            state.totalAmount += newItem.calcPrice 
+            state.totalAmount += newItem.price 
         },
         removeFromCart(state, action) {
             const id = action.payload
@@ -42,7 +41,7 @@ const shopCartSlice = createSlice({
                 existingItem.quantity--
             }
             
-            state.totalAmount -= existingItem.calcPrice
+            state.totalAmount -= existingItem.price
         }
     }
 })
