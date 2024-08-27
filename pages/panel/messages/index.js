@@ -43,11 +43,11 @@ const Messages = () => {
                         <span className="special">پیام های دریافتی</span>
                     </div>
                     <div
-                        className="grid grid-cols-12 shadow-sm rounded-xl h-40 mx-auto lg:bg-white lg:mt-8 box-msge lg:w-4/5 xl:w-9/12"
+                        className="grid grid-cols-12 rounded-xl h-40 mx-auto lg:bg-white lg:mt-8 box-msge lg:w-4/5 xl:w-9/12"
                     >
                         <div className="col-span-12 lg:col-span-4 lg:mt-5 mt-4">
                             <img
-                                className="xl:w-48 rounded-xl mx-auto p-2 md:p-0 lg:p-1"
+                                className="md:w-72 xl:w-48 rounded-xl mx-auto p-2 md:p-0 lg:p-1"
                                 alt="notification"
                                 src="/images/placeholder-4.png"
                             />

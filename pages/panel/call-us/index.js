@@ -28,7 +28,7 @@ const CallUS = () => {
                         <span className="special">تماس با پشتیبانی</span>
                     </div>
                     <form
-                        className="grid grid-cols-12 form-w mx-auto md:mt-10 text-sm w-full lg:w-3/4 px-4"
+                        className="grid grid-cols-12 form-w mx-auto xl:mt-10 text-sm w-full lg:w-3/4 px-4"
                     >
                         <div className="mt-2 md:ml-3 col-span-12 md:col-span-6">
                             <span className="block text-right text-black h7"
@@ -60,7 +60,7 @@ const CallUS = () => {
                             ></textarea>
                         </div>
                         <div className="col-span-12 text-right">
-                            <button className="text-white save-btn mt-4">ارسال</button>
+                            <button className="text-white save-btn mt-2 md:mt-4">ارسال</button>
                         </div>
                     </form>
                 </div>

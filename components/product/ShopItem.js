@@ -1,7 +1,7 @@
 import { formatPrice } from "../../utils/priceUtiles";
 
 const ShopItem = (props) => {
-    const { title, quantity, price, detail, image } = props.items
+    const { title, quantity, price, detail} = props.items
 
     return (
         <div className="bg-white py-2 shadow-md rounded-xl lg:h-36 xl:w-60 box-border md:pr-1 relative mb-1 overflow-hidden">

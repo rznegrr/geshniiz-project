@@ -40,7 +40,7 @@ const DashboardPage = () => {
                         </svg>
                         <span className="special">ویرایش و تکمیل اطلاعات</span>
                     </div>
-                    <div className="md:mt-5">
+                    <div className="xl:mt-10">
                         <form className="flex-col items-center justify-center">
                             <svg
                                 fill="none"

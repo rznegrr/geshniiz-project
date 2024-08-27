@@ -151,6 +151,10 @@ button {
   .addWidth {
     width: 75px;
   }
+
+  .right-box {
+    width: 300px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -198,11 +202,24 @@ button {
   .product-bg{
     height: calc(100vh - 193px);
   }
+
+  .right-box {
+    width: 300px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .container {
     width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1520px){
+  .right-box {
+    width: 550px;
+  }
+  .container {
+    width: 90%;
   }
 }
 
@@ -264,7 +281,7 @@ button {
 
 .right-box {
   background: var(--mainOrange);
-  width: 300px;
+  /* width: 300px; */
 }
 
 .user-pro {
