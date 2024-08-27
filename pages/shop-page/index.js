@@ -1,7 +1,7 @@
-import Header from "../components/layouts/header";
-import PhoneMenu from "../components/ui/phone-menu";
-import HeadTitle from "../components/ui/headTitle";
-import Shop from "../components/product/Shop";
+import Header from "../../components/layouts/header";
+import PhoneMenu from "../../components/ui/phone-menu";
+import HeadTitle from "../../components/ui/headTitle";
+import Shop from "../../components/product/Shop";
 
 
 const ShopPage = () => {
