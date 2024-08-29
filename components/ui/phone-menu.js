@@ -5,7 +5,7 @@ const PhoneMenu = () => {
   const totalQuantity = useSelector(state => state.shopCart.quantity)
 
   return (
-    <div className="md:hidden bg-main mx-0 flex box-menu justify-around">
+    <div className="md:hidden bg-main mx-0 flex box-menu h-[60px] sm:h-[72px] items-center justify-around">
       <Link href="tel:02187457845" className="cursor-pointer">
         <svg
           fill="none"

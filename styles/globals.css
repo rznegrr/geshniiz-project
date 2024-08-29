@@ -69,20 +69,17 @@ button {
   .box-msge {
     width: 80%;
   }
+
 }
 
 @media only screen and (max-width: 767px) {
   .container {
     width: 95%;
   }
+
   .box-menu {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
     width: 100%;
     border-radius: 25px 25px 0 0;
-    height: 60px;
   }
 
   .dis-none {
@@ -124,7 +121,7 @@ button {
   }
 
   .product-bg {
-    height: calc(100vh - 248px);
+    height: calc(100vh - 253px);
   }
 
   .add-cart-box {
@@ -251,7 +248,7 @@ button {
 .pro-bg {
   background-image: url("../public//images/pattern-1.jpg");
   background-size: 300px;
-  height: calc(100vh - 205px);
+  height: calc(100vh - 200px);
   align-content: flex-start;
 }
 
