@@ -78,11 +78,11 @@ button {
   .box-menu {
     position: fixed;
     bottom: 0;
+    right: 0;
     left: 0;
     width: 100%;
-    /* z-index: 2000; */
     border-radius: 25px 25px 0 0;
-    height: 55px;
+    height: 60px;
   }
 
   .dis-none {
@@ -115,15 +115,15 @@ button {
     padding-right: 5px;
   }
 
-  .form-style{
+  .form-style {
     padding: 5px;
   }
 
-  .save-btn{
+  .save-btn {
     padding: 5px 20px;
   }
 
-  .product-bg{
+  .product-bg {
     height: calc(100vh - 248px);
   }
 
@@ -170,7 +170,7 @@ button {
     margin-bottom: 9px;
     align-items: center;
     transition: all 0.4s;
-  } 
+  }
 
   .add-cart-box input {
     width: 24px;
@@ -187,19 +187,19 @@ button {
     padding-right: 5px;
   }
 
-  .user-pro{
-    width: 53% ;
+  .user-pro {
+    width: 53%;
   }
 
-  .form-style{
+  .form-style {
     padding: 10px;
   }
 
-  .save-btn{
+  .save-btn {
     padding: 10px 40px;
   }
 
-  .product-bg{
+  .product-bg {
     height: calc(100vh - 193px);
   }
 
@@ -214,7 +214,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 1520px){
+@media only screen and (min-width: 1520px) {
   .right-box {
     width: 550px;
   }
@@ -251,7 +251,7 @@ button {
 .pro-bg {
   background-image: url("../public//images/pattern-1.jpg");
   background-size: 300px;
-  height: calc(100vh - 193px);
+  height: calc(100vh - 205px);
   align-content: flex-start;
 }
 
@@ -357,18 +357,18 @@ button {
 }
 
 .product-bg {
-  margin:auto;
+  margin: auto;
   padding-bottom: 1rem;
   overflow: auto;
 }
 
-.badge{
+.badge {
   position: absolute;
   top: 18px;
-  left: 0px; 
-  background-color: #d6a788; 
-  color: #ffffff; 
-  padding:2px 6px ; 
+  left: 0px;
+  background-color: #d6a788;
+  color: #ffffff;
+  padding: 2px 6px;
   border-radius: 100%;
   font-size: 10px;
 }

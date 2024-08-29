@@ -10,7 +10,7 @@ const ShopPage = () => {
         <div>
             <HeadTitle title='سبد خرید'/>
             <Header />
-            <Shop mainDiv="text-center relative" totalAmountDiv="absolute right-0 left-0 z-10 py-4 bg-white border-t border-solid border-gray-300"/>
+            <Shop mainDiv="text-center relative" totalAmountDiv="absolute right-0 left-0 z-10 py-3 bg-white border-t border-solid border-gray-300"/>
             <PhoneMenu />
         </div>
     );
